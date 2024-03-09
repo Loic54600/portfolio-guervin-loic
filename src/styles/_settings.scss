@@ -1,0 +1,12 @@
+@mixin verticalCenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+html, body {
+  background: white;
+  margin: 0;
+  position: relative;
+}
+
