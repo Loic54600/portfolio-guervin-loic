@@ -1,0 +1,48 @@
+#presentation {
+    display: flex;
+    background-color: white;
+    padding-inline: 100px;
+    padding-block: 100px;
+    position: relative;
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5));
+
+}
+
+.presentation_title {
+    color: black;
+}
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.picture {
+    flex: 1;
+    margin: 0 20px;
+    z-index: 0;
+
+    &.left::before {
+        content: ' ';
+        background-color: black;
+        width: 20%;
+        height: 100%;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        z-index: -1;
+    }
+
+}
+
+@media all and (max-width:850px) {
+    #presentation {
+        flex-direction: column;
+    }
+
+    .picture.left::before {
+        width: 0%;
+        height: 0%;
+
+    }
+}
