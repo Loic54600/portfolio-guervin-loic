@@ -23,14 +23,17 @@
     font-size: 15px;
     margin-bottom: 0;
     font-family: "Montserrat", sans-serif;
-    border: 2px solid black;
+    border-top: 2px solid black;
+    border-bottom:2px solid black ;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
 }
 
 .nav li {
     padding-inline: 20px;  
 }
 .nav li :hover {
-    padding-inline: 20px;  
+    padding-inline: 10px;  
     border: 2px solid red;
 }
 
@@ -50,6 +53,9 @@
         width: 100%;
         padding: 0 0 0 0;
         flex-direction: column;
+        border-left: none;
+        border-right: none;
+        border-bottom: none;
     }
 
     .top-header .nav li {

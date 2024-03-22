@@ -1,0 +1,73 @@
+.gallery {
+    @include verticalCenter;
+    margin: 0 auto;
+    background-color: red;
+    border-radius: 20px;
+    margin-bottom: 20px;
+
+    &_article {
+        position: relative;
+        display: inline-block;
+        width: calc(50% / 2 - 0px);
+        width: 85%;
+    }
+
+    &_img {
+        object-fit: cover;
+        width: 340px;
+        height: 340px;
+        border-radius: 20px;
+        box-shadow: 1px 1px 5px grey;
+        cursor: pointer;
+        background-color: white;
+    }
+
+    &_title {
+        font-family: "Montserrat", sans-serif;
+        font-size: 30px;
+        color: white;
+        display: block;
+        position: absolute;
+        box-sizing: border-box;
+        bottom: 0;
+        width: 30%;
+        padding: 30px;
+        height: 90px;
+        border-radius: 20px;
+        color: white;
+    }
+
+    &_encadrement {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        border-radius: 20px;
+        padding: 50px;
+        gap: 25px;
+
+        a {
+            margin: 25px;
+            width: calc(100% / 3 - 0px);
+        }
+    }
+}
+
+
+@media screen and (max-width:860px) {
+
+    .gallery {
+        background-color: white;
+
+        &_title {
+            font-size: 15px;
+        }
+
+        a {
+            width: calc(100% / 2 - 50px);
+        }
+
+        &_encadrement {
+            padding: 0;
+        }
+    }
+}

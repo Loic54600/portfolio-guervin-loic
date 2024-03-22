@@ -6,8 +6,7 @@ const Navigation = () => {
 		<h1 className="top-header_title">Portfolio</h1>
 		<div className="nav">
 			<ul>
-				<li><a href="#presentation">Présentation</a></li>
-				<li><a href="#compétences">Compétences</a></li>
+				<li><a href="#competences">Compétences</a></li>
 				<li><a href="#projets_professionnel">Projets-professionnel</a></li>
 				<li><a href="#contact">Contact</a></li>
 			</ul>
