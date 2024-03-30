@@ -1,0 +1,25 @@
+.github_title { 
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    color: black;
+    align-items: center;
+    box-shadow: 0 0 15px rgba(0, 0, 0, .18);  
+    margin-top: 50px;
+    width: 100%;
+    
+}
+.github_icone {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    &_img {
+        width: 250px;
+        cursor: pointer;
+    }
+}
+
+.github_icone :hover {
+	opacity: 0.6;
+	transition: opacity 0.5s;
+}

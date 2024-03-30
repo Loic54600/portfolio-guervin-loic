@@ -1,0 +1,31 @@
+.competence_title { 
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    color: black;
+    align-items: center;
+    box-shadow: 0 0 15px rgba(0, 0, 0, .18);  
+    margin-top: 50px;
+    width: 100%;
+    
+}
+
+.icone {
+    height: 100px;
+    margin: 15px;
+    &_flex {
+        display: flex;
+    }
+
+}
+
+@media all and (max-width:870px) {
+    .competence_title {
+        width: 100%;
+
+    }
+    .icone_flex {
+        flex-direction: column;
+
+    } 
+}
