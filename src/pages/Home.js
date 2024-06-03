@@ -1,10 +1,12 @@
 import React from 'react';
+import Presentation from '../components/Presentation';
 
 const Home = () => {
     return (
-        <div>
+        <section>
+            <Presentation/>
             
-        </div>
+        </section>
     );
 };
 

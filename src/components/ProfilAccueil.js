@@ -19,7 +19,6 @@ const ProfilAccueil = () => {
                         <h2 className="home_profession_special">Front-end</h2>
                         <h3 className="home_name">Guervin Loïc</h3>
                     </div>
-                    <a href="#" download="" className="home_button button">Download CV</a>
                     <NavLink to="/home" >
                         <div className="home_button button">
                            Accéder au profil
