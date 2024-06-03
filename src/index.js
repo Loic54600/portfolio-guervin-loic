@@ -4,8 +4,10 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Home from './pages/Home';
-import Competence from './components/global/Competence';
+
+import Accueil from "./pages/Accueil";
+import Home from "./pages/Home";
+
 
 
 
@@ -14,9 +16,8 @@ root.render(
   <React.StrictMode>
     <BrowserRouter>
       <Routes>
-        {/*Ajoute la route page d'accueil */}
-        <Route path="/" element={<Home />} />
-        <Route path="/projet/:id" element={<Competence />} />
+        <Route path="/" element={<Accueil />} />
+        <Route path="/home" element={<Home />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>
