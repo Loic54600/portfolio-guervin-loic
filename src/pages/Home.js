@@ -1,11 +1,12 @@
 import React from 'react';
-import Presentation from '../components/Presentation';
+
+import Projets from '../components/Projets';
+import TopHeader from '../components/TopHeader';
+import Competence from '../components/Competence';
 
 const Home = () => {
     return (
         <section>
-            <Presentation/>
-            
         </section>
     );
 };

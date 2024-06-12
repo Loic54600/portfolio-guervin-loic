@@ -12,7 +12,7 @@ input,button,textarea {
   outline: none;
 }
 
-h1,h2,h3,h4 {
+h1,h2,h3 {
   color: white;
   font-weight: 600;
 }
@@ -57,24 +57,13 @@ img {
   margin-bottom: 30px;
 }
 
-/*1er carré arrondi*/
-.profil {
-  width: 250px;
-  height: 250px;
-  background-color: white;
-  border: 10px solid blue;
-  border-radius: 25%;
-  display: grid;
-  place-items: center;
-  transition: background-color 1s;
-  
-}
 
 /*2eme cercle*/
 .profil_content {
   width: 180px;
   height: 180px;
-  border: 10px solid blue;
+  border: 10px solid white;
+  box-shadow: 10px 10px 100px white;
   border-radius: 50%;
   overflow: hidden;
   justify-content: center;
@@ -89,7 +78,7 @@ img {
   display: inline-flex;
   justify-content: center;
   background-color: white;
-  color: blue;
+  color: black;
   font-weight: 600;
   padding: 20px 50px;
   border-radius: 25%;
@@ -101,6 +90,7 @@ img {
 
 .home {
   position: relative;
+  background: url('https://images5.alphacoders.com/430/430918.jpg') no-repeat center center/cover;
   
   &_rectangle {
     width: 100%;
@@ -141,13 +131,16 @@ img {
   }
   &_name {
   font-size:30px;
+  text-shadow: 10px 10px 100px white;
 }
 &_profession {
   font-size:50px;
   display: flex;
+  text-shadow: 10px 10px 100px white;
 }
 &_special {
   font-size:30px;
+  text-shadow: 10px 10px 100px white;
 }
 &_button {
   justify-self: center;
