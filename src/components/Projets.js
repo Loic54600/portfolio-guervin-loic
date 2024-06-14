@@ -1,7 +1,4 @@
 import React from 'react';
-
-import testimg from "../assets/img/projet/argentbank/argentbankvisuel.webp"
-
 import ProjetDatas from "../datas/projetdata";
 
 
@@ -21,9 +18,11 @@ const Projets = () => {
                                 <p><span className="projet_card_decoration">Nom du projet:</span>{ProjetData.title}</p>
                                 <p><span className="projet_card_decoration">Réalisation:</span>{ProjetData.realisation}</p>
                                 <p><span className="projet_card_decoration">Description:</span>{ProjetData.description}</p>
+                                <p><span className="projet_card_decoration">Compétence:</span></p>
                                 <div className="button_placement">
-                                <a className="button_decoration" href={ProjetData.github}>Lien github</a>
-                                </div>  
+                                    <a className="button_a" href={ProjetData.github}>Github</a>
+                                    <a className="button_a" href={ProjetData.adressegithub}>Visuel</a>
+                                </div>
                             </div>
                         </div>
                     </div>
