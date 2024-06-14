@@ -3,7 +3,6 @@ import React from 'react';
 import ProfilAccueil from '../components/ProfilAccueil';
 import Navigation from '../components/Navigation';
 import Presentation from '../components/Presentation';
-import Competence from '../components/Competence';
 import Projets from '../components/Projets';
 
 
@@ -13,7 +12,6 @@ const Accueil = () => {
             <ProfilAccueil /> 
             <Navigation />
             <Presentation/>
-            <Competence />
             <Projets />
         </div>
     );

@@ -23,11 +23,6 @@ export const projet = [
         "realisation":"Intégration du site avec du code Html et Css",
         "github":'https://github.com/Loic54600/projet-3',
         "adressegithub":'https://loic54600.github.io/projet-3/index.html',
-        "competenceImg": [
-            Htmlimg,
-            Cssimg,
-            Githubimg
-        ]
     },
     {
         "id": "2",
@@ -38,12 +33,6 @@ export const projet = [
         "realisation":"Intégration du site avec du code Html et Sass",
         "github":'https://github.com/Loic54600/Projet4Openclassroom',
         "adressegithub":'https://loic54600.github.io/Projet4Openclassroom/',
-        "competenceImg": [
-            Htmlimg,
-            Cssimg,
-            Githubimg,
-            Sassimg   
-        ]
     },
     {
         "id": "3",
@@ -54,13 +43,6 @@ export const projet = [
         "realisation":"Intégration du site avec du code Html, Css et Javascript",
         "github":'https://github.com/Loic54600/projet6',
         "adressegithub":'https://loic54600.github.io/Projet6/',
-        "competenceImg": [
-            Htmlimg,
-            Cssimg,
-            Githubimg,
-            Nodejsimg,
-            Javascriptimg
-        ]
     },
     {
         "id": "4",
@@ -71,11 +53,6 @@ export const projet = [
         "realisation":"Intégration de l'application en React",
         "github":"https://github.com/Loic54600/projet8",
         "adressegithub":'https://loic54600.github.io/projet8/',
-        "competenceImg": [
-            Reactimg,
-            Githubimg,
-            Nodejsimg
-        ]
     },
     {
         "id": "5",
@@ -86,11 +63,6 @@ export const projet = [
         "realisation":"Optimisation et intégration d'un site de photographe",
         "github":"https://github.com/Loic54600/projet9",
         "adressegithub":'https://loic54600.github.io/projet9/',
-        "competenceImg": [
-            Htmlimg,
-            Cssimg,
-            Githubimg,
-        ]
     }
    
 ]

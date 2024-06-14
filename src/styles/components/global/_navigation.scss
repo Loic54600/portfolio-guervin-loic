@@ -1,24 +1,43 @@
+.nav {
+  width: 100%;
+  padding: 0 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
+  position: relative;
+  
+}
 
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-  }
-  
-  li {
-    float: left;
-  }
-  
-  li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
-  
-  li a:hover {
-    background-color: #111;
-  }
+.iconeimg {
+  height:  75px;
+  box-shadow: 5px 5px 10px 5px black;
+}
+
+.nav  .nav-header  .nav-title {
+  display: inline-block;
+  font-size: 22px;
+  color: #fff;
+  padding: 10px;
+}
+
+.nav  .nav-links {
+  display: inline-flex;
+  justify-content: flex-end;
+  column-gap: 20px;
+  font-size: 18px;
+  border: none;
+  border-radius: 0 0 10px 10px;
+}
+
+.nav  .nav-links  a {
+  display: inline-block;
+  padding: 15px 15px;
+  text-decoration: none;
+  color: black;
+}
+
+.nav  .nav-links  a:hover {
+  background-color: blue;
+  color: white;
+}

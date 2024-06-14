@@ -6,7 +6,6 @@ import ReactDOM from 'react-dom/client';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 import Accueil from "./pages/Accueil";
-import Home from "./pages/Home";
 
 
 
@@ -17,7 +16,6 @@ root.render(
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Accueil />} />
-        <Route path="/home" element={<Home />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>

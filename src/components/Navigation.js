@@ -1,15 +1,22 @@
 import React from 'react';
+import IconeImg from '../assets/img/lg.icone.png';
 
 const Navigation = () => {
     return (
-        <section className="navbar">
-            <ul>
-                <li><a className="active" href="#home">Home</a></li>
-                <li><a href="#news">Profil</a></li>
-                <li><a href="#contact">Compétences</a></li>
-                <li><a href="#about">Projet</a></li>
-                <li><a href="#about">Contact</a></li>
-            </ul>
+        <section className="navbar" id='navbar'>
+            <div class="nav">
+                <div class="nav-header">
+                    <div class="nav-title">
+                    <a href="#home" target="_blank">
+                        <img src={IconeImg} className='iconeimg'/></a>
+                    </div>
+                </div>
+                <div class="nav-links">
+                    <a href="#mesprojets">Mes projets</a>
+                    <a href="#contact">Contact</a>
+                </div>
+            </div>
+
         </section>
     );
 };
