@@ -16,7 +16,6 @@ const Navigation = () => {
                     <a href="#contact">Contact</a>
                 </div>
             </div>
-
         </section>
     );
 };

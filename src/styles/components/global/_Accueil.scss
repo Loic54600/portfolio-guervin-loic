@@ -12,9 +12,6 @@ a {
   column-gap: 15px;
 }
 
-.section {
-  padding-block: 100px 25px;
-}
 
 .section_title {
   font-size: var(--h1-font-size);
@@ -50,6 +47,7 @@ a {
   position: relative;
   background-color: white;
   height: 100vh;
+  border: 2px solid red;
 
   &_rectangle {
     width: 100%;
