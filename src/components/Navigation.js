@@ -1,5 +1,5 @@
 import React from 'react';
-import IconeImg from '../assets/img/lg.icone.png';
+import IconeImg from '../assets/img/lg_logo.jpg';
 
 const Navigation = () => {
     return (

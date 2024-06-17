@@ -1,5 +1,5 @@
 import React from 'react';
-import profil from '../../src/assets/img/lg.icone.png'
+import profil from '../../src/assets/img/lg_logo.jpg';
 
 
 const ProfilAccueil = () => {
