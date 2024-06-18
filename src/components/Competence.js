@@ -10,7 +10,7 @@ import ReactImg from '../assets/img/competence/react.webp';
 const Competence = () => {
     return (
         <section className="competence_body">
-            <h2 className="competence">Compétences acquises</h2>
+            <h2 className="competence">Mes Compétences acquises</h2>
             <div className="competence_name">
             <div className="icone">
                 <img className="icone_img" alt="icone de github" src={GithubImg} />

@@ -12,6 +12,7 @@ const Navigation = () => {
                     </div>
                 </div>
                 <div class="nav-links">
+                <a href="#home">Accueil</a>
                     <a href="#mesprojets">Mes projets</a>
                     <a href="#contact">Contact</a>
                 </div>

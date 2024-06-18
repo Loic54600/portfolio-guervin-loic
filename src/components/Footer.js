@@ -2,22 +2,40 @@ import React from 'react';
 import IconeImg from '../assets/img/lg_logo.jpg';
 
 const Footer = () => {
-    return ( 
-        <footer className='footer' id='contact'>
-        <section className="navbar" id='navbar'>
-            <div class="nav">
-                <div class="nav-header">
+    return (
+        <footer class="footer">
+            <div class="footer_left">
+            <div class="nav-header">
                     <div class="nav-title">
                     <a href="#home" target="_blank">
-                        <img src={IconeImg} className='iconeimg'/></a>
+                        <img src={IconeImg} className='icone_img'/></a>
                     </div>
                 </div>
-                <div class="nav-links">
-                    <a href="#mesprojets">Mes projets</a>
-                    <a href="#contact">Contact</a>
+                
+            </div>
+            <div class="footer_center">
+                <div>
+                    <p><span>France</span>Pont Saint Vincent</p>
+                </div>
+                <div>
+                    <p>06.61.35.12.23</p>
+                </div>
+                <div>
+                    <p>guervin.loic@gmail.com</p>
                 </div>
             </div>
-        </section></footer>
+            <div class="footer_left">
+                <div>
+                    <p><span>France</span>Pont Saint Vincent</p>
+                </div>
+                <div>
+                    <p>06.61.35.12.23</p>
+                </div>
+                <div>
+                    <p>guervin.loic@gmail.com</p>
+                </div>
+            </div>
+        </footer>
     );
 };
 

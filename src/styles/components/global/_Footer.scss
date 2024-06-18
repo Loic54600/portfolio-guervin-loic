@@ -1,4 +1,21 @@
 .footer {
-    height: 50vh;
-    border: 2px solid red;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    border: 2px solid rgb(90, 182, 236);
+}
+
+.icone_img {
+    height: 75px;
+    width: 75px;
+    box-shadow: 5px 5px 10px 5px rgb(90, 182, 236);
+    margin: 10px;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .footer {
+        flex-direction: column;
+        align-items: center;
+    }
 }

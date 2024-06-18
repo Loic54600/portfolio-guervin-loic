@@ -12,24 +12,21 @@ a {
   column-gap: 15px;
 }
 
-
 .section_title {
   font-size: var(--h1-font-size);
   text-align: center;
   margin-bottom: 30px;
 }
 
-
-/*2eme cercle*/
 .profil_content {
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 10px solid black;
-  box-shadow: 10px 10px 100px white;
+  border: 10px solid rgb(90, 182, 236);
+  box-shadow: 10px 10px 100px rgb(90, 182, 236);
   border-radius: 25%;
   overflow: hidden;
- background-color: white;
+  background-color: white;
 }
 
 .button {
@@ -43,19 +40,25 @@ a {
 
 }
 
+.profil_img {
+  width: 350px;
+}
+
 .home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   position: relative;
   background-color: white;
-  height: 100vh;
-  border: 2px solid red;
+  height: 80vh;
+  background-image: url("https://devnamdev2003.github.io/img/bg.jpeg");
+  background-size: cover;
 
   &_rectangle {
     width: 100%;
     height: 400px;
     background: linear-gradient(white, blue);
     position: absolute;
-    top: 0;
-    left: 0;
     z-index: -1;
   }
 
@@ -64,10 +67,6 @@ a {
     display: flex;
     flex-direction: column;
     align-items: center;
-  }
-
-  &_profil {
-    justify-self: center;
   }
 
   &_content {
@@ -96,11 +95,7 @@ a {
     font-size: 50px;
     display: flex;
     color: black;
-  }
-
-  &_special {
-    font-size: 30px;
-    color: black;
+    text-shadow: 5px 5px 5px rgb(90, 182, 236);
   }
 
   &_button {
@@ -108,8 +103,14 @@ a {
   }
 }
 
+.home_profession_special {
+  font-size: 30px;
+  color: black;
+  text-shadow: 5px 5px 5px rgb(90, 182, 236);
+}
+
 /*=============== MEDIA QUERIES ===============*/
-@media screen and (min-width: 1150px) {
+@media screen and (max-width: 764px) {
   .container {
     margin-inline: auto;
   }
@@ -121,18 +122,22 @@ a {
   }
 
   .profil_content {
-    width: 420px;
-    height: 420px;
+    width: 250px;
+    height: 250px;
     border-width: 10px;
   }
 
   .profil_img {
-    width: 400px;
+    width: 200px;
   }
 
   .home_rectangle {
     width: 30vw;
     height: 100%;
+  }
+
+  .home {
+    height: 100vh;
   }
 
   .home_container {
@@ -155,4 +160,5 @@ a {
   .home_button {
     justify-self: flex-start;
   }
+
 }

@@ -22,7 +22,6 @@ const Projets = () => {
                                 <img src={ProjetData.src} alt="" />
                             </div>
                             <div className="projet_card_info">
-                                <h2>Mohamed Yousef</h2>
                                 <p><span className="projet_card_decoration">Nom du projet:</span>{ProjetData.title}</p>
                                 <p><span className="projet_card_decoration">Réalisation:</span>{ProjetData.realisation}</p>
                                 <p><span className="projet_card_decoration">Description:</span>{ProjetData.description}</p>

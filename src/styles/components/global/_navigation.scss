@@ -1,25 +1,31 @@
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
 .nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
   background-color: white;
   position: relative;
-  border: 2px solid red;
+  border: 2px solid rgb(90, 182, 236);
 }
 
 .iconeimg {
-  height:  75px;
-  box-shadow: 5px 5px 10px 5px black;
+  height: 75px;
+  box-shadow: 5px 5px 10px 5px rgb(90, 182, 236);
 }
 
-.nav  .nav-header  .nav-title {
+.nav .nav-header .nav-title {
   display: inline-block;
   font-size: 22px;
   color: #fff;
   padding: 10px;
 }
 
-.nav  .nav-links {
+.nav .nav-links {
   display: inline-flex;
   justify-content: flex-end;
   column-gap: 20px;
@@ -28,14 +34,14 @@
   border-radius: 0 0 10px 10px;
 }
 
-.nav  .nav-links  a {
+.nav .nav-links a {
   display: inline-block;
   padding: 15px 15px;
   text-decoration: none;
   color: black;
 }
 
-.nav  .nav-links  a:hover {
-  background-color: blue;
+.nav .nav-links a:hover {
+  background-color: rgb(90, 182, 236);
   color: white;
 }
