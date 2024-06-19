@@ -1,17 +1,17 @@
 .competence {
     display: flex;
-    color: white;
+    color: black;
     justify-content: center;
     padding-top: 15px;
     padding-bottom: 15px;
-    text-shadow: 10px 5px 5px rgb(92, 91, 91);
-    font-size: 50px;
-    text-decoration: underline;
-    
+    text-shadow: 10px 5px 5px rgb(90, 182, 236);
+    font-size: 40px;
 
     &_body {
-        background-color: black;
-        height: 30vh;
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+        border: 2px solid rgb(90, 182, 236);
     }
 
     &_name {
@@ -24,11 +24,15 @@
 }
 
 .icone {
-    display: flex;
-    justify-content: space-evenly;
     padding-top: 15px;
     padding-bottom: 15px;
+
     &_img {
-    width: 75px;    
+        width: 100px;
     }
+}
+
+.span_p {
+    display: flex;
+    width: 50%;
 }

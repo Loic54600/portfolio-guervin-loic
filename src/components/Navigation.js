@@ -4,14 +4,14 @@ import IconeImg from '../assets/img/lg_logo.jpg';
 const Navigation = () => {
     return (
         <section className="navbar" id='navbar'>
-            <div class="nav">
-                <div class="nav-header">
-                    <div class="nav-title">
+            <div className="nav">
+                <div className="nav-header">
+                    <div className="nav-title">
                     <a href="#home" target="_blank">
                         <img src={IconeImg} className='iconeimg'/></a>
                     </div>
                 </div>
-                <div class="nav-links">
+                <div className="nav-links">
                 <a href="#home">Accueil</a>
                     <a href="#mesprojets">Mes projets</a>
                     <a href="#contact">Contact</a>

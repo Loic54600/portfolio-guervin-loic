@@ -14,7 +14,7 @@ const ProfilAccueil = () => {
                 </div>
                 <div className="home_content grid">
                     <div className="home_data grid">
-                        <h1 className="home_profession">Web & Visual Designer</h1>
+                        <h1 className="home_profession">Développeur Web & Visual Designer</h1>
                         <h2 className="home_profession_special">Front-end</h2>
                     </div>
                     <a href="#navbar" >

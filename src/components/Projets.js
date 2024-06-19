@@ -1,19 +1,11 @@
 import React from 'react';
 import ProjetDatas from "../datas/projetdata";
 
-import Htmlimg from '../assets/img/competence/html.webp'
-import Cssimg from '../assets/img/competence/css3.webp'
-import Sassimg from '../assets/img/competence/sass.webp'
-import Javascriptimg from '../assets/img/competence/javascript.webp'
-import Githubimg from '../assets/img/competence/github.webp'
-import Nodejsimg from '../assets/img/competence/nodejs.webp'
-import Reactimg from '../assets/img/competence/react.webp'
-
 
 const Projets = () => {
     return (
-        <section className="projet_body" id='mesprojets'>
-            <h2 className="competence">Mes projets réalisés</h2>
+        <section className="projet_body" >
+            <h2 className="competence" id='mesprojets'>Mes projets réalisés</h2>
             {ProjetDatas.map((ProjetData) => {
                 return (
                     <div className="projet" key={ProjetData.id}>

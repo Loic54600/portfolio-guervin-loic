@@ -109,8 +109,19 @@ a {
   text-shadow: 5px 5px 5px rgb(90, 182, 236);
 }
 
+.decoration_button {
+  background-color: black;
+  color: white;
+  padding: 20px 50px;
+  box-shadow: 10px 10px 100px rgb(90, 182, 236);
+}
+
+.decoration_button:hover {
+  background-color: rgb(90, 182, 236);
+}
+
 /*=============== MEDIA QUERIES ===============*/
-@media screen and (max-width: 764px) {
+@media screen and (max-width: 500px) {
   .container {
     margin-inline: auto;
   }
@@ -128,16 +139,11 @@ a {
   }
 
   .profil_img {
-    width: 200px;
-  }
-
-  .home_rectangle {
-    width: 30vw;
-    height: 100%;
+    width: 250px;
   }
 
   .home {
-    height: 100vh;
+    height: 75vh;
   }
 
   .home_container {
