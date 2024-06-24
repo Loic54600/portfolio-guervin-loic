@@ -3,7 +3,7 @@ import profil from '../../src/assets/img/profil.webp'
 
 const Presentation = () => {
     return (
-        <section id='presentation'>
+        <section id='presentation'><h2 className="competence">Présentation</h2>
             <div className="card">
                 <div className="user_card">
                     <div className="user_card_img">

@@ -11,11 +11,12 @@ const Projets = () => {
                     <div className="projet" key={ProjetData.id}>
                         <div className="projet_card">
                             <div className="projet_card_img">
-                                <img src={ProjetData.src} alt="" />
+                                <img src={ProjetData.src} alt={ProjetData.descriptionImage} />
                             </div>
                             <div className="projet_card_info">
                                 <p><span className="projet_card_decoration">Nom du projet:</span>{ProjetData.title}</p>
                                 <p><span className="projet_card_decoration">Réalisation:</span>{ProjetData.realisation}</p>
+                                <p><span className="projet_card_decoration">Code:</span>{ProjetData.code}</p>
                                 <p><span className="projet_card_decoration">Description:</span>{ProjetData.description}</p>
                                 <div className="button_placement">
                                     <a className="button_a" href={ProjetData.github}>Github</a>
