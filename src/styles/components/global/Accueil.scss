@@ -50,12 +50,12 @@ a {
   align-items: center;
   position: relative;
   background-color: white;
-  height: 100vh;
   background-image: url("https://devnamdev2003.github.io/img/bg.jpeg");
   background-size: cover;
   border-top: 2px solid rgb(90, 182, 236);
   border-right: 2px solid rgb(90, 182, 236);
   border-left: 2px solid rgb(90, 182, 236);
+  height: auto;
 
   &_rectangle {
     width: 100%;
@@ -124,14 +124,14 @@ a {
 }
 
 /*=============== MEDIA QUERIES ===============*/
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 350px) {
   .container {
     margin-inline: auto;
   }
 
   .profil {
-    width: 500px;
-    height: 500px;
+    width: 400px;
+    height: 400px;
     border-width: 10px;
   }
 
@@ -142,13 +142,8 @@ a {
   }
 
   .profil_img {
-    width: 250px;
+    width: 150px;
   }
-
-  .home {
-    height: 75vh;
-  }
-
   .home_container {
     position: relative;
     grid-template-columns: 500px 300px;
@@ -157,15 +152,18 @@ a {
     padding-block: 55px 120px;
   }
 
+  .home_profession {
+    font-size: 25px;
+  }
+
+  .home_profession_special {
+    font-size: 20px;
+  }
+
   .home_content {
     row-gap: 60px;
   }
-
-  .home_data {
-    row-gap: 15px;
-    text-align: initial;
-  }
-
+  
   .home_button {
     justify-self: flex-start;
   }

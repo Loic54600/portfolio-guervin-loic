@@ -14,10 +14,10 @@ const Projets = () => {
                                 <img src={ProjetData.src} alt={ProjetData.descriptionImage} />
                             </div>
                             <div className="projet_card_info">
-                                <p><span className="projet_card_decoration">Nom du projet:</span>{ProjetData.title}</p>
-                                <p><span className="projet_card_decoration">Réalisation:</span>{ProjetData.realisation}</p>
-                                <p><span className="projet_card_decoration">Code:</span>{ProjetData.code}</p>
-                                <p><span className="projet_card_decoration">Description:</span>{ProjetData.description}</p>
+                                <p><span className="projet_card_decoration">Nom du projet:</span><span className="projet_card_decoration_title">{ProjetData.title}</span></p>
+                                <p><span className="projet_card_decoration">Réalisation:</span><span className="projet_card_decoration_title">{ProjetData.realisation}</span></p>
+                                <p><span className="projet_card_decoration">Code:</span><span className="projet_card_decoration_title">{ProjetData.code}</span></p>
+                                <p><span className="projet_card_decoration">Description:</span><span className="projet_card_decoration_title">{ProjetData.description}</span></p>
                                 <div className="button_placement">
                                     <a className="button_a" href={ProjetData.github}>Github</a>
                                     <a className="button_a" href={ProjetData.adressegithub}>Visuel</a>
