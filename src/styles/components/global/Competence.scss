@@ -37,3 +37,9 @@
     display: flex;
     width: 50%;
 }
+
+@media only screen and (max-width: 768px) {
+    .competence_body {
+        height: 65vh;
+    }
+}
