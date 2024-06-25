@@ -14,7 +14,7 @@ const Navigation = () => {
                 <div className="nav-links">
                 <a href="#home">Accueil</a>
                     <a href="#mesprojets">Mes projets</a>
-                    <a href="#contact">Contact</a>
+                    <a href="#Footer">Contact</a>
                 </div>
             </div>
         </section>
