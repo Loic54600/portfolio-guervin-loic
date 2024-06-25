@@ -50,9 +50,12 @@ a {
   align-items: center;
   position: relative;
   background-color: white;
-  height: 70vh;
+  height: 100vh;
   background-image: url("https://devnamdev2003.github.io/img/bg.jpeg");
   background-size: cover;
+  border-top: 2px solid rgb(90, 182, 236);
+  border-right: 2px solid rgb(90, 182, 236);
+  border-left: 2px solid rgb(90, 182, 236);
 
   &_rectangle {
     width: 100%;
