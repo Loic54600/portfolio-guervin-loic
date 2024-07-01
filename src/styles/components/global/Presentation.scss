@@ -31,6 +31,11 @@
     border-radius: 50%;
 }
 
+.user_card_info {
+display: flex;
+flex-direction: column;
+width: 80%;
+}
 .user_card_info h2 {
     font-size: 25px;
     margin: 0;

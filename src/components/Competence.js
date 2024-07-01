@@ -21,8 +21,8 @@ const Competence = () => {
                     <img className="icone_img" alt="icone react" src={ReactImg} />
                 </div>
                 <div className='span_p'>
-                <p><span className="span_decoration">Mes compétences acquises:</span>
-                    Débutant dans le monde du développement, je suis muni des compétences de base du développeur web.
+                <p><span className="span_decoration">Mes compétences acquises: </span>
+                     Débutant dans le monde du développement, je suis muni des compétences de base du développeur web.
                     Titulaire du diplôme Intégrateur Web, je possède les connaissances
                     théoriques et pratiques qui me permettront d'exécuter mes futurs missions.
                 </p>

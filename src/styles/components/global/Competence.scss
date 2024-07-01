@@ -33,4 +33,7 @@
 
 .span_p {
     width: auto;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
 }
